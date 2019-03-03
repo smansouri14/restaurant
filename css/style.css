@@ -46,6 +46,11 @@ p {
     color: #fff;
 }
 
+.bg-primary {
+    background: rgb(121,73,106);
+    color: #fff;
+}
+
 .l-heading {
     font-size: 4rem;
     margin-bottom: 0.75rem;
@@ -185,13 +190,48 @@ p {
     background: url('../img/dinning_room.jpg') no-repeat center center/cover;
 }
 
-/* Clients */
-#clients .items {
+/* Menu */
+#menu {
+    display: flex;
+    padding: 1rem;
+    margin: 0;
+}
+
+#menu img {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    padding: 0rem;
+}
+
+
+
+
+/* Section: Contact */
+#contact {
     display: flex;
 }
 
-#clients .items img {
+#contact .img {
+    background: url('../img/marg.jpg') no-repeat center center/cover;
+
+}
+
+#contact .img, #contact .contact-form {
+    flex: 1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+
+}
+
+#contact .contact-form label {
     display: block;
-    margin: auto;
-    width: 60%;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
 }
